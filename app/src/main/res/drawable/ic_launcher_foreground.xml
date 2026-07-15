@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Main track line -->
+    <path
+        android:pathData="M 40,30 L 40,78"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="6"
+        android:strokeLineCap="round" />
+
+    <!-- Branch line curving to the right -->
+    <path
+        android:pathData="M 40,54 C 40,44 54,36 68,36"
+        android:strokeColor="#F05032"
+        android:strokeWidth="6"
+        android:strokeLineCap="round" />
+
+    <!-- Source node (bottom) -->
+    <path
+        android:pathData="M 40,78 m -6,0 a 6,6 0 1,1 12,0 a 6,6 0 1,1 -12,0"
+        android:fillColor="#121212"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4" />
+
+    <!-- Destination node (top) -->
+    <path
+        android:pathData="M 40,30 m -6,0 a 6,6 0 1,1 12,0 a 6,6 0 1,1 -12,0"
+        android:fillColor="#121212"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4" />
+
+    <!-- Branch node (right) -->
+    <path
+        android:pathData="M 68,36 m -6,0 a 6,6 0 1,1 12,0 a 6,6 0 1,1 -12,0"
+        android:fillColor="#121212"
+        android:strokeColor="#F05032"
+        android:strokeWidth="4" />
+
+</vector>

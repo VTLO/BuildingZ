@@ -1,0 +1,6 @@
+{
+  "name": "Git Companion",
+  "description": "An interactive utility to build conventional commit messages, check commit cleanliness, and view quick-reference workflows.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
